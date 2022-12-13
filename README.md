@@ -12,7 +12,7 @@ This repostitory includes two examples of the same code. In one example, we add 
 First install the dependencies:
 `yarn install`
 
-Switch to the correct Node version (make sure testing on v16+). If using nvm, simply run `nvm install` in the project root.
+Switch to the correct Node version (make sure testing on v16+). If using nvm, simply run `nvm install` or `nvm use` in the project root.
 
 Run `yarn with-sentry`. This starts the first server at `http://localhost:3000`
 Visit `http://localhost:3000`, and notice that the server crashes.

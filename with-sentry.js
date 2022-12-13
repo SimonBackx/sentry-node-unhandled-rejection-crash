@@ -18,7 +18,7 @@ const sleep = (ms) => {
 let counter = 0;
 
 Sentry.init({
-    dsn: "anydsn",
+    dsn: "https://examplePublicKey@o0.ingest.sentry.io/0",
     environment: 'development'
 });
 
