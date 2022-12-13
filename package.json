@@ -1,0 +1,14 @@
+{
+  "name": "sentry-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "^7.25.0",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "with-sentry": "node with-sentry.js",
+    "without-sentry": "node without-sentry.js"
+  }
+}
