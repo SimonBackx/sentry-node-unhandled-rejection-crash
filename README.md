@@ -1,3 +1,9 @@
+# This has been fixed in @sentry/node v7.48.0
+
+Upgrade to @sentry/node v7.48.0+ to fix this issue.
+
+---
+
 # Example of @sentry/node Express middleware breaking unhandledRejection listener
 
 When adding `Sentry.Handlers.requestHandler()` as an Express middleware, `process.on('unhandledRejection')` stops working and unhandled promise rejections will crash Node.js.
